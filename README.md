@@ -18,7 +18,7 @@ response = reqto.get(url,timeout=5,timeout_function=custom_function,timeout_args
 
 ## Example
 
-```
+```python
 import reqto
 
 def custom_function(parameter):
